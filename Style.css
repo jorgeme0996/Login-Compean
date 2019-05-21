@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+body{
+    background-image: url(./wp3837319.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+div.container {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+#log {
+    border: 2px solid rgba(92, 91, 91, 0.192) ;
+    background-color: rgba(56, 56, 56, 0.486);
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    box-shadow: 5px 10px rgba(56, 56, 56, 0.342);
+    text-decoration-color: rgb(255, 255, 255);
+    padding: 30px;
+    align-self: center;
+}
+
+#box1{
+    border-radius: 10px;
+    border: 2px;
+    height: 35px;
+    width: 210px;
+   margin-bottom:5px; 
+   background-color: rgba(56, 56, 56, 0.6);
+   border:1px solid;
+   padding-left: 15px;
+}
+
+#box2{
+    border-radius: 10px;
+    height: 35px;
+    width: 210px;
+   margin-bottom:15px; 
+   background-color: rgba(56, 56, 56, 0.6);
+   border:1px solid;
+   padding-left: 15px;
+  
+}
+
+#box3{
+    border-radius: 50px;
+    height: 45px;
+    width: 120px;
+    background-color: rgba(47, 240, 89, 0.568);
+    border: 1px solid black;  
+    margin-left:60px; 
+}
+
+#pass{
+    border-radius: 10px;
+    border: 2px;
+    height: 30px;
+    width: 180px;
+    background-color: rgba(56, 56, 56, 0);
+    margin-bottom:15px; 
+ 
+}
+
+#in{
+    border-radius: 50px;
+    height: 40px;
+    width: 120px;
+    background-color: rgba(103, 248, 103, 0);
+    border: 1px;
+}
+
+h1{
+    margin: 20px;
+    color: white;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+#user{
+    border-radius: 50px;
+    border: 2px;
+    height: 35px;
+    width: 180px;
+    background-color: rgba(56, 56, 56, 0.075);
+    margin-bottom:15px; 
+   
+}
+#user,#box1:hover {
+    color: rgb(96, 234, 252);
+
+}
+#pass,#box2:hover {
+    color:  rgb(96, 234, 252);
+}
+#in:hover{
+    cursor: pointer; 
+    color: rgb(169, 247, 150);
+}
+
+#box3:hover{
+    background-color: rgb(103, 248, 103);
+    text-decoration-color: black;
+}
+
+#user,#box1:active {
+    color: rgb(96, 234, 252);
+
+}
+#pass,#box2:active {
+    color:  rgb(96, 234, 252);
+}
